@@ -15,7 +15,7 @@ public static void main(String[] args)  {
         int distancia = Integer.parseInt(br.readLine());
         double combustivel = Double.parseDouble(br.readLine());
         double consumoMedio = (distancia / combustivel);
-        System.out.println(df.format(consumoMedio).replaceAll("," , ".") + " Km/l ");
+        System.out.println(df.format(consumoMedio).replaceAll("," , ".") + " Km/l");
         
         } catch (Exception e){
             System.out.println(e.getCause());
